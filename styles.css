@@ -1,0 +1,104 @@
+body{
+   width:100vw;
+   height:100vh;
+   background-color:#DE8F5F;
+   overflow-x: hidden;
+}
+h2{
+   font-size:x-large;
+   font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  padding:5vh;
+   font-style: italic;
+}
+.container{
+   display: flex;
+   flex-direction: row-reverse;
+  width:100vw;
+  margin-top:10vh;
+  
+}
+
+button{
+   height:50px;
+   background-color:rgba(0, 0, 139, 0.856);
+   box-shadow:0 0 5px black;
+}
+
+.perfume-image{
+   width:40vw;
+   border:2px solid rgba(165, 42, 42, 0.585);
+    margin-right:5vw;
+   border-radius: 50%;
+   
+   
+    
+   
+}
+#about{
+    background-color:#D4BDAC;
+    border:2px solid black;
+  width:40vw;
+  height:10vh
+  margin-top:5vh;
+   margin-right:5vw;
+ 
+   display:flex;
+   align-items:center;
+   text-align:center;
+   font-size:x-large;
+   
+  
+   
+}
+#logo{
+   background-color:#FFCFB3 ;
+   width:40vw;
+   height:20vh;
+    margin-left:20vw;
+   margin-top:10vh;
+}
+#navbar{
+   width:100vw;
+   position:fixed;
+   top:0;
+   left:0;
+   right:0;
+  background-color: white;
+  border:1px solid black;
+   
+}
+.navbar-items{
+   display: flex;
+   justify-content: space-around;
+   height: 5vh;
+   
+}
+.box{
+   display:flex;
+   flex-direction: column;
+}
+.shop-now{
+  padding-top:10vh;
+   padding-left:25vw;
+}
+footer{
+   background-color: white;
+   border:1px solid black;
+  position:absolute;
+  left:0;
+  width:100%;
+  
+}
+#name{
+   display:flex;
+   justify-content:space-around;
+   margin-left:0;
+  margin-bottom:0;
+   
+ }
+ .class{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+}
